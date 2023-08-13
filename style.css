@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left-container {
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.foto {
+    width: 50%;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.foto-cp {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    text-align: center;
+}
+
+.button {
+    width: 50%;
+    background-color: azure;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.button:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.top-bar {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.title {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.right-container {
+    position: absolute;
+    left: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+.list-menu {
+    float: right;
+    padding-right: 50px;
+}
+
+.menu {
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+#profile {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#about {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+#experience {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#archievements {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#contact {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#footer {
+    padding-top: 50px;
+    padding-left: 100px;
+    text-align: center;
+}
+p, li {
+    line-height: 200%;
+}
